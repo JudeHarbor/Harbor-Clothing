@@ -76,12 +76,54 @@
             </div>
         </div>
     </section>
-    
-    <footer id="contact">
-        <p>&copy; 2025 Harbor Clothing Coy. All rights reserved.</p>
-        <p><a href="mailto:info@harborclothing.com">Contact us</a> | 
-            <a href="https://wa.me/2348180760453" target="_blank">Chat on WhatsApp</a>
-    </footer>
+    <section id="quote">
+        <h2>Request a Quote or Appointment</h2>
+        <form id="quote-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+      
+          <label for="service">Service:</label>
+          <select id="service" name="service" required>
+            <option value="">--Select a Service--</option>
+            <option value="Traditional Wear">Traditional Wear</option>
+            <option value="Ready to Wear">Ready to Wear</option>
+            <option value="Bespoke Suits">Bespoke Suits</option>
+            <option value="Shirt Tailoring">Shirt Tailoring</option>
+          </select>
+      
+          <label for="message">Additional Details:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+      
+          <button type="submit">Submit Request</button>
+        </form>
+        <p id="form-response" style="margin-top: 10px;"></p>
+      </section>
+      
+      <footer id="contact">
+        <div class="footer-content">
+          <div class="footer-section">
+            <p>&copy; 2025 Harbor Clothing Coy. All rights reserved.</p>
+          </div>
+          <div class="footer-section">
+            <p>
+              <strong>Address:</strong><br>
+              No. 15 Tailors' Street, Yaba, Lagos, Nigeria<br>
+              <a href="https://www.google.com/maps?q=No.+15+Tailors'+Street,+Yaba,+Lagos" target="_blank">
+                View on Google Maps
+              </a>
+            </p>
+          </div>
+          <div class="footer-section">
+            <p><a href="mailto:info@harborclothing.com">info@harborclothing.com</a></p>
+            <a href="https://wa.me/2349125102828" target="_blank">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </footer>
+      
+      
     
     <script src="js/script.js"></script>
 </body>
